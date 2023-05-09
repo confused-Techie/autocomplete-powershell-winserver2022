@@ -1,0 +1,93 @@
+[
+  {
+    "displayText": "Debug",
+    "text": "-Debug",
+    "description": "Displays programmer-level detail about the operation done by the command.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-debug",
+    "rightLabel": "SwitchParameter"
+  },
+  {
+    "displayText": "ErrorAction",
+    "text": "-ErrorAction",
+    "description": "Determines how the cmdlet responds to a non-terminating error from the command.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-erroraction",
+    "rightLabel": "ActionPreference"
+  },
+  {
+    "displayText": "ErrorVariable",
+    "text": "-ErrorVariable",
+    "description": "ErrorVariable stores error messages about the command in the specified variable and in the $Error automatic variable.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-errorvariable",
+    "rightLabel": "string"
+  },
+  {
+    "displayText": "InformationAction",
+    "text": "-InformationAction",
+    "description": "Overrides the value of the $InformationPreference preference variable.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-informationaction",
+    "rightLabel": "ActionPreference"
+  },
+  {
+    "displaytext": "InformationVariable",
+    "text": "-InformationVariable",
+    "description": "Stores in a variable a string that you specify.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-informationvariable",
+    "rightLabel": "string"
+  },
+  {
+    "displaytext": "OutBuffer",
+    "text": "-OutBuffer",
+    "description": "Determines the number of objects to accumulate in a buffer before any objects are sent through the pipeline.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-outbuffer",
+    "rightLabel": "int32"
+  },
+  {
+    "displayText": "OutVariable",
+    "text": "-OutVariable",
+    "description": "Stores output objects from the command in the specified variable in addition to sending the output along the pipeline.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-outvariable",
+    "rightLabel": "String"
+  },
+  {
+    "displayText": "PipelineVariable",
+    "text": "-PipelineVariable",
+    "description": "Allows access to the most recent value passed into the next pipeline segment by the command that uses this parameter.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-pipelinevariable",
+    "rightLabel": "String"
+  },
+  {
+    "displayText": "Verbose",
+    "text": "-Verbose",
+    "description": "Displays detailed information about the operation done by the command.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-verbose",
+    "rightLabel": "SwitchParameter"
+  },
+  {
+    "displayText": "WarningAction",
+    "text": "-WarningAction",
+    "description": "Determines how the cmdlet responds to a warning from the command.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-warningaction",
+    "rightLabel": "ActionPreference"
+  },
+  {
+    "displayText": "WarningVariable",
+    "text": "-WarningVariable",
+    "description": "Stores warnings about the command in the specified variable.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-warningvariable",
+    "rightLabel": "String"
+  },
+  {
+    "displayText": "WhatIf",
+    "text": "-WhatIf",
+    "description": "Displays a message that describes the effect of the command, instead of executing the command.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-whatif",
+    "rightLabel": "SwitchParameter"
+  },
+  {
+    "displayText": "Confirm",
+    "text": "-Confirm",
+    "description": "Prompts you for confirmation before executing the command.",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3#-confirm",
+    "rightLabel": "SwitchParameter"
+  }
+]
