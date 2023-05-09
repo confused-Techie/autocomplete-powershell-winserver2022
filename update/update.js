@@ -18,6 +18,7 @@ const VERSION = "winserver2022-ps";
 async function update() {
   let CMDLET = [];
   let PARAMS = {};
+  let MODULE_TITLE = [];
 
   // Check if our repo is already cloned, and if so skip cloning
   if (!fs.existsSync("./windows-powershell-docs")) {
@@ -54,6 +55,10 @@ async function update() {
       rightLabel: frontMatter.attributes["Module Name"]
     });
 
+    if (!MODULE_TITLE.includes(`* ${frontMatter.attributes["Module Name"]}`) && typeof frontMatter.attributes["Module Name"] === "string") {
+      MODULE_TITLE.push(`* ${frontMatter.attributes["Module Name"]}`);
+    }
+
     const paramData = frontMatter.body.split("## PARAMETERS")[1];
 
     PARAMS[title] = generateParams(paramData, title);
@@ -68,6 +73,8 @@ async function update() {
   };
 
   fs.writeFileSync("COMPLETIONS.json", JSON.stringify(comp, null, 2));
+
+  fs.writeFileSync("SUPPORTED_MODULES.txt", MODULE_TITLE.join("\n"));
 
   console.log("Successfully updated completions!");
 }
