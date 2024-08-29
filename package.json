@@ -1,6 +1,6 @@
 {
   "name": "autocomplete-powershell-winserver2022",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "Provides Windows Server 2022 PowerShell Module Autocompletions for Pulsar",
   "main": "./lib/main.js",
   "scripts": {
